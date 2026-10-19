@@ -11,8 +11,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
  * The dark tint filter turns itself off when the two files are different.
  * The third image (crystal) is the fixed site background, see SiteBackground.tsx.
  */
-const DAY_SRC = "/hero1.webp";
-const NIGHT_SRC = "/hero2.webp";
+const DAY_SRC: string = "/hero1.webp";
+const NIGHT_SRC: string = "/hero2.webp";
 const NIGHT_IS_PLACEHOLDER = NIGHT_SRC === DAY_SRC;
 
 export default function Hero() {
